@@ -1,0 +1,89 @@
+# Visual Studio specific
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.ncb
+*.sdf
+*.pdb
+*.opendb
+*.VC.db
+*.code-workspace
+
+# Build outputs
+Build/
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+*.obj
+*.lib
+*.dll
+*.exp
+*.idb
+*.ipch
+*.ilk
+*.iobj
+*.ipdb
+*.pdb
+*.rsp
+*.tlb
+*.tli
+*.tlh
+*.pch
+*.log
+*.tlog/
+*.lastbuildstate
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+CMakeScripts/
+cmake_install.cmake
+
+# DirectX Shader Compiler output
+*.cso
+*.hlsl.old
+*.fxc_output
+*.fx
+*.dxbc
+*.dxil
+
+# GLFW build artifacts
+glfw/build/
+glfw/bin/
+glfw/*.dll
+glfw/*.lib
+glfw/*.exp
+glfw/*.ilk
+glfw/*.pdb
+glfw/*.idb
+
+# Editor & IDE specific
+*.sln.cache
+*.sln.docstates
+*.VC.opendb
+*.VC.db
+.idea/
+*.userprefs
+
+# Auto-generated files
+*.generated.*
+*.gen.*
+*.bak
+*.tmp
+*.cache
+*.dmp
+
+# Logs and debugging
+*.log
+*.trace
+
+# Package manager files
+*.nuget/
+packages/
+__pycache__/
+node_modules/
